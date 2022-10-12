@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Vinyasa/static/css/main.073c9b0a.css",
+    "main.js": "/Vinyasa/static/js/main.88f1e089.js",
+    "static/js/787.bd02f72e.chunk.js": "/Vinyasa/static/js/787.bd02f72e.chunk.js",
+    "index.html": "/Vinyasa/index.html",
+    "main.073c9b0a.css.map": "/Vinyasa/static/css/main.073c9b0a.css.map",
+    "main.88f1e089.js.map": "/Vinyasa/static/js/main.88f1e089.js.map",
+    "787.bd02f72e.chunk.js.map": "/Vinyasa/static/js/787.bd02f72e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.88f1e089.js"
+  ]
+}
