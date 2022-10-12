@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5,
           -webkit-transition: 0s all;
           -o-transition: 0s all;
           transition: 0s all;
-          color: #343a40; }
+          color: #183661; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown .active > a {
           color:#183661 !important; }
         .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
@@ -348,7 +348,7 @@ h1, h2, h3, h4, h5,
             display: block; }
             .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a:hover {
               background: #183661;
-              color: #25262a; }
+              color: #758ef2; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li.has-children > a:before {
             content: "\e315";
             right: 20px; }
@@ -484,7 +484,9 @@ h1, h2, h3, h4, h5,
       width: 100%; }
       .site-mobile-menu .site-nav-wrap > li > a {
         padding-left: 20px;
-        font-size: 20px; }
+        font-size: 20px; 
+ 
+    }
       .site-mobile-menu .site-nav-wrap > li > ul {
         padding: 0;
         margin: 0;
@@ -523,7 +525,7 @@ h1, h2, h3, h4, h5,
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    background:#183661;}
+    background: #183661;}
     .sticky-wrapper .site-navbar .site-logo a {
       color: #000; }
     .sticky-wrapper .site-navbar .site-menu > li {
@@ -531,6 +533,9 @@ h1, h2, h3, h4, h5,
       .sticky-wrapper .site-navbar .site-menu > li > a.active {
         color: #000;
         position: relative; }
+        /* .sticky-wrapper .site-navbar .site-menu > li > a.active:before {
+          color:#000
+        } */
         .sticky-wrapper .site-navbar .site-menu > li > a.active:after {
           height: 2px;
           background: #fff;
@@ -540,11 +545,11 @@ h1, h2, h3, h4, h5,
           left: 20px;
           right: 20px; }
   .sticky-wrapper.is-sticky .site-navbar {
-    background: #fff;
+    background: #183661;
     -webkit-box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
     box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2); }
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
-      color: #000; }
+      color: black; }
     .sticky-wrapper.is-sticky .site-navbar .site-menu > li {
       display: inline-block; }
       .sticky-wrapper.is-sticky .site-navbar .site-menu > li > a {
@@ -567,6 +572,7 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   position: relative; 
 background-image: url('../images/bg_1.jpg');
+
 }
   .intro-section, .intro-section .container .row {
     height: 100vh;
@@ -595,12 +601,12 @@ background-image: url('../images/bg_1.jpg');
     max-width: 400px; }
 
 .custom-breadcrumns {
-  padding: 20px 0; }
+  padding: 40px 0; }
   .custom-breadcrumns span, .custom-breadcrumns a {
     font-size: 14px; }
   .custom-breadcrumns a {
     display: inline-block;
-    color: #bdbdbd; }
+    color: #183661; }
     .custom-breadcrumns a:hover {
       color:#183661; }
   .custom-breadcrumns .current {
@@ -1053,7 +1059,7 @@ height: 100%; }
   opacity: 1; }
 
 #loader .circular {
-  -webkit-animation: loader-rotate 2s linear infinite;
+  -webkit-animation: loader-rotate 1s linear infinite;
   animation: loader-rotate 2s linear infinite;
   position: absolute;
   left: calc(50% - 24px);
@@ -1243,6 +1249,52 @@ height: 100%; }
   cursor: pointer;
   font-size: 18px;
 }
+.popup{
+  width: 400px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
 
+.open-popup{
+  visibility: visible;
+  top:50%;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+.popup img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.popup h2{
+  font-size: 38px;
+  font-weight:500;
+  margin:30px 0 10px;
+
+}
+.popup button{
+  width: 100%;
+  margin-top:50px;
+  padding: 10px 0;
+  background: #6fd649;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+}
 
 

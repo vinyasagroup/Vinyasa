@@ -55,7 +55,6 @@ function Userservice() {
                 <div className="course-1-content pb-4">
                  
                   <p className="desc mb-4">We architect, design, develop mobile applications for android, ios and windows platforms. We have expertise in developing mobile application using android studio, ionic and xcode.</p>
-                  <p><a href="course-single.html" className="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p>
                 </div>
               </div>
               <div className="course-1-item">
@@ -65,8 +64,7 @@ function Userservice() {
                   <div className="category"><h3>UX & UI Designs</h3></div>  
                 </figure>
                 <div className="course-1-content pb-4">
-                  <h2></h2>
-                  
+                
                   <p className="desc mb-4">We make your website more attractive by creating beautiful and stunning user interface designs with latest technology which is consistent across web, tablet and mobile platforms.</p>
                   {/* <p><a href="courses-single.html" className="btn btn-primary rounded-0 px-4">Enroll In This Course</a></p> */}
                 </div>

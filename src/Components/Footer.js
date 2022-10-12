@@ -15,11 +15,11 @@ function Footer() {
         <h3 className="footer-heading"><span>Our Company</span></h3>
         <ul className="list-unstyled">
         <li><Link to='/nxt' className='list-link'  >About US</Link></li>
+        <li><Link to='/userservice' className='list-link'  >User Service</Link></li>
         <li><Link to='/contact' className='list-link'  >Contact us</Link></li>
-        <li>News</li>
-            <li>Internship</li>
-            <li>Careers</li>
-            <li>Human Resources</li>
+
+            
+            
         </ul>
       </div>
       <div className="col-lg-3">
@@ -36,10 +36,8 @@ function Footer() {
           <h3 className="footer-heading"><span>Contact</span></h3>
           <ul className="list-unstyled"> 
               <li>Help Center</li>
-              <li>Support Communi</li>
-              <li>Press</li>
-              <li>Share Your Story</li>
-              <li>Our Supporters</li>
+              <li>Support Communication</li>
+             
            </ul>
       </div>
     </div>

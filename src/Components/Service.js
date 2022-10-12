@@ -2,11 +2,6 @@ import React from 'react'
 
 function Service() {
   return (
-   
-
-
-
-
 <div className="site-section">
   <div className="container">
 

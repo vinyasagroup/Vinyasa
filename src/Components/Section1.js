@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { Link } from 'react-router-dom'
 function Section1() {
   return (
@@ -34,7 +33,7 @@ function Section1() {
     <div className="container">
         <div className="d-flex align-items-center">
           <div className="site-logo">
-            <a href="user" className="d-block">
+            <a href="/user" className="d-block">
               <img src="images/logo.jpg" alt="" className="img-fluid"/>
             </a>
           </div>
@@ -43,13 +42,12 @@ function Section1() {
             <nav className="site-navigation position-relative text-right" role="navigation">
               <ul className="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li className="active">
-                <Link to='/' className='nav-link text-left'>Home</Link>
-                  {/* <a href="/User" className="nav-link text-left">Home</a> */}
+                {/* <Link to="/user" className='nav-link text-left'>Home</Link> */}
+                  <a href="/user" className="nav-link text-left">Home</a>
                 </li>
                 <li><Link to='/nxt' className='list-link'  >About US</Link></li>
                 <li><Link to='/userservice' className='list-link'  >Services</Link></li>
                 <li><Link to='/contact' className='list-link'  >Contact</Link></li>
-                {/* <li><Link to='/nxt' className='list-link'  >About US</Link></li> */}
 
 
                 {/* <li>
@@ -74,10 +72,10 @@ function Section1() {
         <div className="ml-auto">
             <div className="social-wrap">
               <a href="https://www.facebook.com/vinyasagroup/"><span className="icon-facebook"></span></a>
-              <a href="https://www.instagram.com/invites/contact/?i=j8x9t45qloqs&utm_content=2ktd7fm"><span className="icon-instagram"></span></a>
-              <a href="www.vinyasa.com"><span className="icon-google"></span></a>
+              <a href="https://www.instagram.com/invites/contact/?i=19709z6fxv1sd&utm_content=2ktd7fm"><span className="icon-instagram"></span></a>
+              <a href="https://goo.gl/maps/Wpy3BVXDQ7sj5szt9"><span className="icon-google"></span></a>
 
-              {/* <a href="#" className="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span className="icon-menu h3"></span></a> */}
+              <a href="/Section1" className="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span className="icon-menu h3"></span></a>
             </div>
           </div>
          </div>

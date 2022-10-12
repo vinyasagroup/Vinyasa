@@ -1,10 +1,11 @@
 
 import './App.css';
-import User from './Components/User';
-import { HashRouter as Router, Routes, Route} from 'react-router-dom';
+import User from './Components/user'
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Next from './Components/nxt';
 import Userservice from './Components/userservice';
 import Contact from './Components/contact';
+import Section1 from './Components/Section1';
 // import About from './Components/about';
 function App() {
   return (
@@ -13,9 +14,11 @@ function App() {
 <Router>
     <Routes>
       <Route path="/" element={<User/>} />
+
       <Route path="/nxt" element={<Next/>} />
       <Route path="/userservice" element={<Userservice/>} />
       <Route path="/contact" element={<Contact/>} />
+      <Route path="/Section1" element={<Section1/>} />
       {/* <Route path="/about" element={<About/>} /> */}
     </Routes>
 </Router>   
